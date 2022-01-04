@@ -29,6 +29,7 @@
                           <!-- play/pause-->
                           <i class="far fa-play-circle" title="play" id="play-btn"></i>
                       </div>
+                      <!-- Volume -->
                       <div class="volume">  
                           <div class="volume-icon">
                               <i class="fas fa-volume-upper" title="mute" id="volume-icon"></i>
@@ -38,7 +39,27 @@
                           </div>
                       </div>
                        <!-- Right Controls-->
-                       <div class="controls-right"></div>
+                       <div class="controls-right">
+                           <!-- Speed-->
+                           <div class="speed"> 
+                                <select name ="playbackRate" class="playerspeed">
+                                    <option value="0.5">0.5 x</option>
+                                    <option value="0.75">0.75 x</option>
+                                    <option value="1" selected>1 x</option>
+                                    <option value="1.5">1.5 x</option>
+                                    <option value="2">2 x</option>
+                                </select>
+                           </div>
+                           <!-- Time -->
+                           <div class="time">
+                                 <span class"time-elapsed">00:00</span>
+                                 <span class"time-duration">2:38</span>
+                           </div>
+                           <!-- Fullscreen-->
+                           <div class="fullscree">  
+                                <i class="fas fa-expand"> </i>
+                           </div>
+                       </div>
                   </div>
              </div>
          </div>
